@@ -3,6 +3,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 class Bank {
+
     private Map<String, Account> accounts;
 
     public Bank() {
@@ -64,7 +65,7 @@ class Account {
     }
 }
 
-public class BankingSystem {
+    class BankingSystem {
     public static void main(String[] args) {
         Bank bank = new Bank();
 
@@ -81,3 +82,4 @@ public class BankingSystem {
         bank.displayAccountInfo("102");
     }
 }
+
